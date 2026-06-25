@@ -7,7 +7,7 @@ st.set_page_config(page_title="Chocolate Dashboard", layout="centered")
 st.title("🍫 Chocolate Demand Dashboard")
 
 # Load your dataset (Make sure the CSV name matches your uploaded file)
-df = pd.read_csv("your_data_file.csv")
+df = pd.read_csv("Chocolate_Sales.csv")
 
 # Sidebar Filters
 st.sidebar.header("🕹️ Control Panel")
